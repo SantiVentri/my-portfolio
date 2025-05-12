@@ -44,24 +44,40 @@
 
 .about {
     display: flex;
-    padding: 50px;
-    height: 500px;
-    gap: 20px;
-}
-
-.about article, .about aside {
-    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 50px 0;
+    gap: 80px;
 }
 
 .about article {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    gap: 30px;
+    width: 600px;
+    max-width: 80%;
+    gap: 20px;
 }
 
 .about article h1 {
     font-size: 25px;
+}
+
+.about article p {
+    line-height: 1lh;
+    font-size: 18px;
+}
+
+.about aside {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about aside .me {
+    height: auto;
+    width: auto;
+    max-width: 85%;
 }
 
 .contact {
@@ -152,9 +168,6 @@
         left: -140px;
         width: 300px !important;
         height: 300px !important;
-    }
-    .about {
-        flex-direction: column;
     }
     .contact {
         flex-direction: column;

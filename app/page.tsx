@@ -19,7 +19,10 @@ export default function Home() {
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo commodi enim tempore, voluptatum expedita excepturi rerum? Corrupti dolorem earum consequatur alias, ea non tenetur cumque, rem, optio veniam facilis modi?</p>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo commodi enim tempore, voluptatum expedita excepturi rerum? Corrupti dolorem earum consequatur alias, ea non tenetur cumque, rem, optio veniam facilis modi?</p>
         </article>
-        <aside></aside>
+        <aside>
+          <Image src={"/me.png"} className={styles.me} height={450} width={380} alt="Me" />
+        </aside>
+      </section>
       </section>
       <section className={styles.contact} id="contact">
         <div className={styles.titles}>
