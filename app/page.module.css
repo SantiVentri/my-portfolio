@@ -13,12 +13,13 @@
     align-items: flex-end;
     justify-content: flex-start;
     padding: 40px;
-    height: 600px;
+    height: 500px;
 }
 
 .welcome h1 {
     font-size: 65px;
 }
+
 .welcome h2 {
     font-size: 45px;
 }
@@ -33,11 +34,11 @@
 .bigGradient {
     top: -450px;
     right: -200px;
-    animation: float 9s ease-in-out infinite;
+    animation: float 15s ease-in-out infinite;
 }
 
 .smallGradient {
-    top: -100px;
+    top: -180px;
     left: -120px;
 }
 
@@ -108,14 +109,17 @@
   0% {
     transform: translate(0px, 0px);
   }
-  25% {
-    transform: translate(-35px, 35px);
+  20% {
+    transform: translate(-80px, -80px);
   }
-  50% {
-    transform: translate(0px, 70px);
+  40% {
+    transform: translate(-40px, 40px);
   }
-  75% {
-    transform: translate(35px, 35px);
+  60% {
+    transform: translate(60px, 60px);
+  }
+  80% {
+    transform: translate(40px, -40px);
   }
   100% {
     transform: translate(0px, 0px);
@@ -128,7 +132,7 @@
     transform: translate(0px, 0px);
   }
   50% {
-    transform: translate(-70px, -90px);
+    transform: translate(80px, 150px);
   }
   100% {
     transform: translate(0px, 0px);
