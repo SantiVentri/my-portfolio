@@ -38,8 +38,8 @@ export default function Home() {
           <Link href={"/contact"}>Contact me</Link>
         </div>
         <aside>
-          <Link href={"https://www.linkedin.com/in/santinoventrice/"} target="_blank"><Image src={"/icons/LinkedIn.png"} height={35} width={35} alt="aa" /></Link>
-          <Link href={"https://github.com/SantiVentri"} target="_blank"><Image src={"/icons/GitHub.png"} height={35} width={35} alt="aa" /></Link>
+          <Link href={"https://www.linkedin.com/in/santinoventrice/"} target="_blank"><Image src={"/icons/LinkedIn.png"} height={35} width={35} alt="LinkedIn link" draggable={false} /></Link>
+          <Link href={"https://github.com/SantiVentri"} target="_blank"><Image src={"/icons/GitHub.png"} height={35} width={35} alt="Github link" draggable={false} /></Link>
         </aside>
       </section>
     </div>
