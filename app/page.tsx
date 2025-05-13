@@ -25,12 +25,14 @@ export default function Home() {
         </aside>
       </section>
       <section className={styles.projects} id="projects">
-        <Project img="https://placehold.co/350x200/2C48B7/FFFFFF/png?text=Project&font=poppins" name="Project title" date="22/5/2025" description="Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sapien." url="https://placehold.co/600x400/png" />
-        <Project img="https://placehold.co/350x200/2C48B7/FFFFFF/png?text=Project&font=poppins" name="Project title" date="22/5/2025" description="Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sapien." url="https://placehold.co/600x400/png" />
-        <Project img="https://placehold.co/350x200/2C48B7/FFFFFF/png?text=Project&font=poppins" name="Project title" date="22/5/2025" description="Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sapien." url="https://placehold.co/600x400/png" />
-        <Project img="https://placehold.co/350x200/2C48B7/FFFFFF/png?text=Project&font=poppins" name="Project title" date="22/5/2025" description="Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sapien." url="https://placehold.co/600x400/png" />
-        <Project img="https://placehold.co/350x200/2C48B7/FFFFFF/png?text=Project&font=poppins" name="Project title" date="22/5/2025" description="Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sapien." url="https://placehold.co/600x400/png" />
-        <Project img="https://placehold.co/350x200/2C48B7/FFFFFF/png?text=Project&font=poppins" name="Project title" date="22/5/2025" description="Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sapien." url="https://placehold.co/600x400/png" />
+        <div className={styles.list}>
+          <Project img="https://placehold.co/350x200/2C48B7/FFFFFF/png?text=Project&font=poppins" name="Project title" date="22/5/2025" description="Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sapien." url="https://placehold.co/600x400/png" />
+          <Project img="https://placehold.co/350x200/2C48B7/FFFFFF/png?text=Project&font=poppins" name="Project title" date="22/5/2025" description="Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sapien." url="https://placehold.co/600x400/png" />
+          <Project img="https://placehold.co/350x200/2C48B7/FFFFFF/png?text=Project&font=poppins" name="Project title" date="22/5/2025" description="Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sapien." url="https://placehold.co/600x400/png" />
+          <Project img="https://placehold.co/350x200/2C48B7/FFFFFF/png?text=Project&font=poppins" name="Project title" date="22/5/2025" description="Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sapien." url="https://placehold.co/600x400/png" />
+          <Project img="https://placehold.co/350x200/2C48B7/FFFFFF/png?text=Project&font=poppins" name="Project title" date="22/5/2025" description="Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sapien." url="https://placehold.co/600x400/png" />
+          <Project img="https://placehold.co/350x200/2C48B7/FFFFFF/png?text=Project&font=poppins" name="Project title" date="22/5/2025" description="Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sapien." url="https://placehold.co/600x400/png" />
+        </div>
       </section>
       <section className={styles.contact} id="contact">
         <div className={styles.titles}>
